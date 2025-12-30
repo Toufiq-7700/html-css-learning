@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Calibri,  sans-serif;
+    
+}
+
+.maincontainer{
+    height: 550px;
+    width: 1000px;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1.2fr 4fr;
+    margin: 40px auto;
+}
+.leftcontainer{
+    background-color: rgb(49, 53, 129);
+    display: grid;
+    grid-template-rows: 1.4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.l1{
+    color: aliceblue;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(to right, rgb(49, 53, 129), rgb(94, 101, 239), rgb(49, 53, 129)) ;
+}
+.l2{
+    color: aliceblue;
+    padding-left: 20px;
+    padding-top: 10px;
+
+} 
+
+.l22{
+   display: flex;
+   align-items: center;
+   color: aliceblue;
+   gap: 20px;
+
+}
+.l21{
+    height: 80%;
+    width: 4px;
+    background-color: aliceblue;
+}
+.l222{
+    height: 60%;
+    width:90%;
+    padding-left: 20px;
+    padding-top: 8px;
+    background-image: linear-gradient(to right,  rgb(49, 53, 129), rgb(94, 101, 239));
+    
+}
+.rightcontainer{
+    background-color: blanchedalmond;
+    display: grid;
+    grid-template-rows: .7fr 3fr 2fr;
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+.n1{
+    color: black;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    padding-left: 5px;
+}
+.n2{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+
+}
+#n2{
+    border-radius: 20px;
+    border: 1px solid gray;
+    height: 35px;
+    width: 180px;
+    padding-left: 5px;
+    box-shadow: 2px 2px 10px gray;
+
+}
+.middle{
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.m1{
+    height: 160px;
+    width: 220px;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-rows: 1.3fr 1fr;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px grey;
+}
+.up{
+    border-radius: 10px 10px 0px 0px;
+    display: grid;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, rgb(206, 54, 54), rgb(93, 93, 74), rgb(36, 187, 16));
+}
+.up1{
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.up2{
+    color: rgb(39, 34, 34);
+    padding: 10px;
+}
+.low{
+    display: grid;
+}
+.line{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 20px;
+    height: 4px;
+    width: 100px;
+    background-image: linear-gradient(to right, green, yellow);
+}
+.low2{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(66, 64, 64);
+    font-size: 13px;
+}
+
+
+
+
+footer{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+.foot{
+    height: 85%;
+    width: 90%;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px grey;
+}
+.footerhead{
+    padding: 10px;
+    font-size: 20px;
+}
+.footerup{
+    display: flex;
+    justify-content: space-around;
+
+}
+.foot1{
+    height: 100px;
+    width: 180px;
+    background-image: radial-gradient(rgb(255, 255, 255), rgb(255, 77, 23)) ;
+    display: grid;
+    justify-content: space-around;
+    padding-left: -30px;
+    padding-top: 5px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 10px gray;
+
+}
+.foot2{
+    height: 100px;
+    width: 180px;
+    background-image: radial-gradient(rgb(241, 221, 0), rgb(52, 45, 255)) ;
+    display: grid;
+    justify-content: space-around;
+    padding-left: -30px;
+    padding-top: 5px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 10px gray;
+
+}
+.foot3{
+    height: 100px;
+    width: 180px;
+    background-image: radial-gradient(rgb(255, 95, 26), rgb(110, 247, 208)) ;
+    display: grid;
+    justify-content: space-around;
+    padding-left: -30px;
+    padding-top: 5px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 10px gray;
+
+}
+
