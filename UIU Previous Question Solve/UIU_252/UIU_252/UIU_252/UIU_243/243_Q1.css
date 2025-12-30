@@ -1,0 +1,133 @@
+.container{
+    height: 450px;
+    width: 1000px;
+    display: flex;
+    margin: auto;
+}
+.left{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(231, 234, 237);
+    display: grid;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+    background-image: url("R.jpg");
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    height: 50px;
+    width: 450px;
+    background-color: aliceblue;
+    margin-top: 40px;
+    justify-content: end;
+}
+.n1{
+    background-color: aliceblue;
+    height: 50px;
+    width: 370px;
+    margin-top: 40px;
+    margin-left: auto;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    color: rgb(19, 147, 105);
+}
+.n2{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    gap: 20px;
+    font-size: 13px;
+    color: rgb(61, 61, 61);
+    font-weight: 500;
+}
+#n21home, .n113{
+    color: rgb(19, 147, 105);
+}
+.ucam{
+    background-color: rgb(19, 147, 105);
+    margin-top: 12px;
+    height: 28px;
+    width: 80px;
+    color: aliceblue;
+    border: 0px;
+}
+#n22{
+    margin-top: -10px;
+}
+.n11{
+    margin-top: -10px;
+}
+.n111{
+    margin-top: -60px;
+    margin-left: -30px;
+}
+.n11, .n112{
+    font-size: 35px;
+    font-weight: 800;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    color: rgb(46, 45, 45);
+}
+
+.n1111{
+    height:70px;
+    width: 70%;
+    color: grey;
+    margin-left: 70px;
+    margin-top: -80px;
+}
+
+.btn5{
+    height: 45px;
+    width: 110px;
+    color: aliceblue;
+    font-size: 15px;
+    border: 0px;
+    background-color: rgb(30, 169, 123);
+    border-radius: 5px;
+}
+
+.n5{
+    margin-top: -80px;
+    margin-left: 70px ;
+}
+
+.maincontainer{
+    display: grid;
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+}
+footer{
+    height: 80px;
+    width: 1000px;
+    background-color: rgb(7, 198, 135);
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.f{
+    height:  40px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.ff{
+    height: 40px;
+    width: 140px;
+    background-color: rgb(11, 69, 69);
+    color: aliceblue;
+     border: 1px solid gray;
+    border-radius: 5px;
+}
